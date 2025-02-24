@@ -15,16 +15,23 @@
     align-items: center;
 }
 
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .square{
     height: 350px;
     width: 700px;
-    border: 2px  dashed    black;
 
 }
 
 .gap{
     gap: 50px;
 }
+
 /* header */
 .color-white{
     color: white;
@@ -51,19 +58,37 @@
 
 .card-1{ 
     height: 350px;
-    width: 70%;
-    border: 2px  dashed    black;
+    width: 50%;
 }
 
-/* paragraph2 */
+.text-card-1{
+    font-size: 40px;
+    padding-bottom: 30px;
+}
 
-.block-2{
-    background-color: rgb(255, 255, 255);
+.botton-mac{
+    background-color: white;
+    padding: 8px;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.botton-browser{
+    background-color: black;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+/* paragraph3 */
+
+.block-3{
+    background-color: rgb(218, 218, 218);
     height: 500px;
 }
 
-.pink{
-    background-color: rgb(247, 176, 250);
+.card-sorcer{
+    background-image: url(../);
     width: 40%;
     border: 2px  dashed    black;
     margin-left: 10%;
@@ -76,24 +101,28 @@
     margin-right: 10%;
 }
 
-/* paragraph3 */
+/* paragraph2 */
 
-.blue-2{
-    background-color: rgb(122, 135, 255);;
+.card-frog{
+    background-image: url(../img/item1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 60%;
-    border: 2px  dashed    black;
     margin-left: 10%;
 }
-.pink-2{
-    background-color: rgb(247, 176, 250);
-    width: 40%;
-    border: 2px  dashed    black;
+.card-2{
+    width: 30%;
     margin-right: 10%;
 }
 
-.block-3{
-    background-color: rgb(218, 218, 218);
+.block-2{
+    background-color: rgb(255, 255, 255);
     height: 500px;
+}
+
+.text-card-2{
+    font-size: 40px;
+    margin-bottom: 20px;
 }
 /* paragraph4 */
 
