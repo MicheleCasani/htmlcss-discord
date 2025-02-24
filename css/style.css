@@ -5,7 +5,7 @@
 }
 
 .header{
-    background-color: rgb(125, 125, 248);
+    background-color: rgb(37, 94, 233);
     height: 60px;
 }
 
@@ -22,29 +22,34 @@
 
 }
 
-.title{
-    background-color: rgb(255, 166, 0);
-    border: 2px dashed;
-    padding: 0px 10px;
-    gap: 150px;
-    width: 80%;
+.gap{
+    gap: 50px;
+}
+/* header */
+.color-white{
+    color: white;
+}
+.accedi{
+    margin-left: 150px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 80%;
 }
 
-.box-link{
-    border-right: 3px dashed black;
-    border-left: 3px dashed black;
-    padding: 10px 150px
+.discord-logo{
+    margin-right: 150px;
 }
 
 /* paragraph1 */
 
 .block-1{
-    background-color: rgb(0, 0, 252);
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
     height: 450px;
 }
 
-.fucsia{
-    background-color: rgb(250, 97, 255); 
+.card-1{ 
     height: 350px;
     width: 70%;
     border: 2px  dashed    black;
